@@ -1,0 +1,33 @@
+/* .imgBackground{
+    width: 100%;
+} */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-image: url('../../image/rick-and-morty-wallpaper.jpg');
+}
+
+
+.buttonL{
+    background-color: hsla(0, 0%, 0%, 0.815);
+    color: darkorange;
+    padding: 10px;
+    font-size: 40px;
+    width: 150px;
+    border: 5px solid darkorange;
+    border-radius: 20px;
+    margin-top: 680px;
+}
+
+.titleL{
+    margin: 0;
+    background-color: hsla(0, 0%, 0%, 0.815);
+    font-size: 50px;
+    color: darkorange;
+    
+    padding: 20px;
+}
+

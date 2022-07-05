@@ -1,0 +1,47 @@
+.box{
+    
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.card{
+    padding: 50px;
+    border: 3px solid greenyellow;
+    color: greenyellow;
+
+}
+
+.title{
+    padding: 30px 5px 5px 5px;
+}
+
+.textP{
+    padding: 5px;
+}
+
+.image1{
+    align-self: center;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+
+.button1{
+   
+    width: 100%;
+    font-size: 20px;
+    color: greenyellow;
+    background-color: black;
+    padding: 15px;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+    margin: 20px;
+    
+}
+
+

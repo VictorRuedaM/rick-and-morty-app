@@ -1,0 +1,26 @@
+.page{
+    position: fixed;
+    width: 100%;
+    
+    background-color: black;
+}
+
+.titleHome{
+    padding-top: 200px;
+    margin-left: 10px;
+    
+}
+
+
+
+.linkCard{
+    text-decoration: none;
+    color: white;
+}
+
+
+.linkCard :hover{
+    text-decoration: none;
+    color: greenyellow;
+    
+}
