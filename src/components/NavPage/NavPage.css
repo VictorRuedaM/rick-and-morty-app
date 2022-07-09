@@ -1,4 +1,29 @@
+.container{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
 .title{
     color: greenyellow;
 }
+
+.selection select{
+    margin: 10px;
+    padding: 7px;
+    background-color: darkorange;
+    font-weight: bold;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .5s;
+    transition-duration: .9s;
+}
+
+.selection :hover{
+    background-color: greenyellow;
+}
+
+
 

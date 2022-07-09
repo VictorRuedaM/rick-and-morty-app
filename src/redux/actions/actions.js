@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-import {GET_CHARACTERS, GET_CHARACTE_DETAILS} from './actionsName';
+import {GET_CHARACTERS, GET_CHARACTE_DETAILS, GET_SPECIES, GET_STATUS} from './actionsName';
 
 
 
@@ -33,3 +33,21 @@ export function getCharacterDetails(id){
         payload: id
     }
 }
+
+export function getSpecies(param){
+
+    return{
+
+        type: GET_SPECIES,
+        payload: param
+    }
+};
+
+export function getStatus(param){
+
+    return{
+
+        type: GET_STATUS,
+        payload: param
+    }
+};

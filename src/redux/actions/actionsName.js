@@ -1,2 +1,4 @@
 export const GET_CHARACTERS = 'GET_CHARACTERS';
 export const GET_CHARACTE_DETAILS = 'GET_CHARACTE_DETAILS';
+export const GET_SPECIES = 'GET_SPECIES';
+export const GET_STATUS = 'GET_STATUS';
