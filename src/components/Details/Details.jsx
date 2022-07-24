@@ -25,7 +25,7 @@ function Details() {
 
   return (
     <div className='box'>
-        <div className='card bg-dark'>
+        <div className='card bg-dark pd-6' >
             <img className='image1' src={character[0].image} alt="image" />
             <h2 className='title'>Name: {character[0].name}</h2>
             <h3 className='textP'>Gender: {character[0].gender}</h3>

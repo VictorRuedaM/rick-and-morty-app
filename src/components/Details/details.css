@@ -33,7 +33,7 @@
 
 .button1{
    
-    width: 100%;
+    width: 50%;
     font-size: 20px;
     color: greenyellow;
     background-color: black;
@@ -44,4 +44,6 @@
     
 }
 
-
+hcard{
+    height: 20px;
+}
